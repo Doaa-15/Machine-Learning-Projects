@@ -292,6 +292,46 @@ To avoid recomputing embeddings during query time, we saved both:
 np.save("job_embeddings.npy", job_embeddings)
 np.save("enc_order.npy", enc_order)
 ```
+## UI/UX Design
+### Flow one
+![<img width="12750" height="3318" alt="signup" src="https://github.com/user-attachments/assets/5d93f57d-be9d-4902-b1c0-a2e6f31927d2" />]
+1. **Splash Screen**  
+   - The app opens with a welcoming screen and the button **Get Started**.
+
+2. **Log in Screen**  
+   - User can log in or choose to sign up.  
+   - In this flow, the user selects **Sign up**.
+
+3. **Email Entry**  
+   - User enters their email address.  
+   - App sends a 5-digit verification code.
+
+4. **Email Verification**  
+   - User types the code to verify their email.
+
+5. **Password Creation**  
+   - User sets a password following simple rules:  
+     - Minimum 8 characters  
+     - At least 1 number  
+     - At least 1 symbol  
+
+6. **Success Screen**  
+   - Message: *“Your account was successfully created!”*  
+   - User can now access the app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Business Plan & Sustainability
 
