@@ -7,7 +7,7 @@
 - [Recommendation Engine](#recommendation-engine)
 - [Database & APIs](#database--apis)
 - [Flutter Mobile Application](#flutter-mobile-application)
-- [UI/UX Design](#ui/ux-design)
+- [c](#ui/ux-design)
 - [Business Plan & Sustainability](#business-plan--sustainability)
 - [Final Predications & Demonstration](#final-predictions--demonstration)
 - [Future Work / Next Steps](#future-work--next-steps)
@@ -292,6 +292,13 @@ To avoid recomputing embeddings during query time, we saved both:
 np.save("job_embeddings.npy", job_embeddings)
 np.save("enc_order.npy", enc_order)
 ```
+## UI/UX Design
+
+
+
+
+
+
 
 ## Business Plan & Sustainability
 
